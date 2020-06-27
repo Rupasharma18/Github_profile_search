@@ -21,7 +21,7 @@ const Search =({searchUser})=>{
              />
             
               <InputGroupAddon addonType='append'>
-                  <Button type='submit' >search</Button>
+                  <Button type='submit'disabled={!query} >search</Button>
               </InputGroupAddon>
               </InputGroup>
           </FormGroup>
