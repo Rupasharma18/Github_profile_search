@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import {Navbar, NavbarToggler, NavbarBrand} from 'reactstrap';
 
 const Nav = ()=>{
-    const [IsOpen, setIsOpen ]=useState(false);
-    const toggle =()=> setIsOpen(!IsOpen);
     return(
         <Navbar color="dark" dard expand='md' fixed>
             <div className="container">

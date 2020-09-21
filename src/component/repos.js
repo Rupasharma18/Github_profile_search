@@ -6,7 +6,7 @@ const Repos = ({repo}) => {
         <div className='card card-body mb-2'>
           <div className='row'>
             <div className='col-md-6'>
-              <a href={repo.html_url} target='_blank' rel='noopener noreferrer'>
+              <a href={repo.html_url} target='_blank' >
                 {repo.name}
               </a>
             </div>
